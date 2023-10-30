@@ -1,0 +1,99 @@
+/* raca.css */
+
+body {
+    background-color: rgb(69, 114, 116);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div img {
+    border-radius: 20px;
+}
+
+.texthref {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.texthref:hover {
+    color: #666;
+}
+
+.logo {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .conteudo {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        margin-right: 1px;
+        width: 90%;
+    }
+
+    .item {
+        background-color: rgb(129, 213, 216);
+        border: 2px solid black;
+        border-radius: 15px;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        padding: 13px;
+        transition: 0.3s;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        text-align: center;
+    }
+
+    .conteudo {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .item {
+        background-color: rgb(129, 213, 216);
+        border: 2px solid black;
+        border-radius: 15px;
+        display: block;
+        gap: 10px;
+        padding: 13px;
+        transition: 0.3s;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 1600px) {
+
+    .conteudo {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .item {
+        background-color: rgb(129, 213, 216);
+        border: 2px solid black;
+        border-radius: 15px;
+        text-align: center;
+        display: block;
+        gap: 100px;
+        padding: 30px;
+        transition: 0.3s;
+        margin-bottom: 20px;
+    }
+
+
+}

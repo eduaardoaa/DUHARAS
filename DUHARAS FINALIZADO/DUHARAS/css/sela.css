@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(69, 114, 116);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1, h2 {
+    text-align: center;
+    margin: 1px;
+    padding-bottom: 40px;
+}
+div img{
+    border-radius: 20px;
+}
+.fotosela {
+    display: block;
+    float: left; 
+    margin: 3px;
+}
+.infosela {
+    display: inline-block;
+    text-align: justify;
+    border-radius: 5px;
+    background-color: rgb(172, 172, 172);
+    width: 900px;
+    height: 390px;
+    margin: 3px;
+    padding: 10px;
+    
+}
+.botao{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .fotosela {
+        text-align: center;
+        margin: 0 auto;
+        float: none; 
+        max-width: 100%;
+    }
+
+    .infosela {
+        width: 96%;
+        height: 850px;
+    }
+}

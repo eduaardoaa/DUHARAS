@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(69, 114, 116);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1, h2 {
+    text-align: center;
+    margin: 1px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+div img{
+    border-radius: 20px;
+}
+.homeback{
+    display: inline-block;
+    padding-top: 1%;
+
+}
+.logo{
+    display: inline;
+    padding-left: 35%;
+}
+div img{
+    border-radius: 20px;
+}
+ul li, ul p{
+    font-size: 25px;
+}
+.fotobreque {
+    display: block;
+    float: left; 
+    height: 460px;
+    width: 400px;
+}
+.infobreque {
+    display: inline-block;
+    text-align: justify;
+    border-radius: 5px;
+    background-color: rgb(172, 172, 172);
+    width: 900px;
+    height: 440px;
+    margin: 3px;
+    padding: 10px;
+    
+}
+.compra{
+    text-align: center;
+    margin-top: -17%;
+}
+footer {
+    color: black;
+    background-color: rgb(172, 172, 172);
+    width: 100%;
+    height: 28px;
+    border-radius: 7px;
+    text-align: center;
+}
+footer p{
+    padding-top: 3px;
+}
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(129, 213, 216);
+    border-radius: 6px;
+}
+
+@media (max-width: 767px) {
+    .fotobreque {
+        text-align: center;
+        margin: 0 auto;
+        float: none; 
+        max-width: 100%;
+    }
+
+    .infobreque {
+        width: 96%;
+        height: 350px;
+    }
+}
+@media only screen and (min-width: 1920px) {
+
+    .logo{
+        display: inline;
+        padding-left: 40%;
+    }
+    .fotobreque {
+        padding-left: 20px;
+        display: block;
+        float: left; 
+        height: 500px;
+        width: 500px;
+    }
+
+    .infobreque {
+        margin-left: 4%;
+        width: 65%;
+        height: 470px;
+    }
+    footer {
+        color: black;
+        background-color: rgb(172, 172, 172);
+        margin-top: 6%;
+        width: 100%;
+        height: 28px;
+        border-radius: 7px;
+        text-align: center;
+    }
+    footer p{
+        padding-top: 3px;
+    }
+}

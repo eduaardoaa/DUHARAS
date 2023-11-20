@@ -1,0 +1,368 @@
+body {
+    background-image: url(../img/teste.png);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header { 
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+nav {
+    text-align: center;
+}
+
+a { 
+    padding-left: 25px;
+    color: black; 
+    text-decoration: none;
+    font-size: 17px;
+}
+
+a:hover {
+    color: #666;
+}
+
+div img {
+    border-radius: 20px;
+}
+
+.importanciacavalo {
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 700px;
+    height: 330px;
+    border-radius: 15px;
+    float: left; 
+}
+
+.objetivosite {
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 700px;
+    height: 180px;
+    border-radius: 15px;
+    float: left; 
+}
+
+.fotocavalo {
+    padding: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    margin-top: 20px; 
+     position: relative;
+     height: 707px;
+     width: 500px;
+}
+
+.mySlides{
+    height: 707px;
+     width: 500px;
+}
+
+footer {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 1335px;
+    height: 28px;
+    border-radius: 7px;
+    text-align: center;
+}
+footer p{
+    padding-top: 3px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(129, 213, 216);
+    border-radius: 6px;
+}
+
+
+  .nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
+
+  .slide-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+  }
+
+  .indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .active {
+    background-color: rgb(129, 213, 216);
+}
+
+@media only screen and (min-width: 1920px) {
+
+     .importanciacavalo {
+        width: 61%;
+        margin: 10px; 
+        padding: 20px;
+        height: 100%; 
+        font-size: 20px;
+        text-align: justify;
+        margin: 20px;
+        padding: 40px;
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 20%px;
+        height: 330px;
+        border-radius: 15px;
+    }
+    
+    .objetivosite {
+        width: 61%; 
+        margin: 10px; 
+        padding: 20px;
+        height: 100%;
+        font-size: 20px;
+        text-align: justify;
+        margin: 20px;
+        padding: 40px;
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 20%px;
+        height: 180px;
+        border-radius: 15px;
+    }
+    
+      .mySlides{
+        border-radius: 18px;
+        margin-left: 53px;
+    }
+
+
+    .nav-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .prev {
+        left: 60px; 
+    }
+
+    .next {
+        right: -45px; 
+    }
+
+
+
+    .slide-indicators {
+        position: absolute;
+        bottom: 15px;
+        right: 38%; 
+        transform: translateX(50%);
+        display: flex;
+        gap: 5px;
+    }
+    footer {
+        width: 100%; 
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    header { 
+        padding-left: 20%;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    .importanciacavalo,
+    .objetivosite {
+
+        width: 100%; 
+        height: auto; 
+    }
+
+    .mySlides {
+        margin-left: 0;
+        height: 100%;
+        width: 100%; 
+    }
+
+    .nav-btn {
+        opacity: 1; 
+    }
+
+    .prev {
+        left: 10px; 
+    }
+
+    .next {
+        right: 10px; 
+    }
+
+    .slide-indicators {
+        bottom: 10px;
+        right: 50%;
+        transform: translateX(0);
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1290px) {
+    .importanciacavalo {
+        width: 47%;
+        height: 375px; 
+        font-size: 20px;
+        text-align: justify;
+        margin: 20px;
+        padding: 40px;
+        background-color: rgba(255, 255, 255, 0.7);
+
+        border-radius: 15px;
+    }
+    
+    .objetivosite {
+        width: 47%; 
+        height: 100%;
+        font-size: 20px;
+        text-align: justify;
+        margin: 20px;
+        padding: 40px;
+        background-color: rgba(255, 255, 255, 0.7);
+        
+        border-radius: 15px;
+    }
+    
+      .mySlides{
+        border-radius: 18px;
+        margin-left: 23px;
+    }
+    
+
+    .nav-btn {
+        opacity: 1;
+    }
+
+    .prev {
+        left: 30px; 
+    }
+
+    .next {
+        right: -13px;
+    }
+
+    .slide-indicators {
+        bottom: 15px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1690px) {
+
+
+    .importanciacavalo {
+        width: 61%;
+        margin: 10px; 
+        padding: 20px;
+        height: 100%; 
+        font-size: 20px;
+        text-align: justify;
+        margin: 20px;
+        padding: 40px;
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 20%px;
+        height: 330px;
+        border-radius: 15px;
+    }
+    
+    .objetivosite {
+        width: 61%; 
+        margin: 10px; 
+        padding: 20px;
+        height: 100%;
+        font-size: 20px;
+        text-align: justify;
+        margin: 20px;
+        padding: 40px;
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 20%px;
+        height: 180px;
+        border-radius: 15px;
+    }
+    
+      .mySlides{
+        border-radius: 18px;
+        margin-left: 53px;
+    }
+
+
+    .nav-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .prev {
+        left: 60px; 
+    }
+
+    .next {
+        right: -45px; 
+    }
+
+
+
+    .slide-indicators {
+        position: absolute;
+        bottom: 15px;
+        right: 38%; 
+        transform: translateX(50%);
+        display: flex;
+        gap: 5px;
+    }
+    footer {
+        width: 100%; 
+    }
+}
